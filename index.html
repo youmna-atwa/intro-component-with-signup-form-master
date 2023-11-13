@@ -26,9 +26,9 @@
     <div class="Trial">
       <button type="button"> <span> Try it free 7 days</span> then $20/mo. thereafter </button>
     </div>
-    <div class="Form">
+    <div class="Form" onsubmit="myFunction(event)">
       <form>
-        <input required class="form-control" id="mustfirstName" type="text" placeholder="First Name" />
+        <input required  class="form-control" id="mustfirstName"  type="text" placeholder="First Name" />
         <p id="valid"></p>
         <input required class="form-control" id="mustLastName" type="text" placeholder="Last Name" />
         <p id="valid2"></p>
@@ -36,7 +36,7 @@
         <input required class="form-control" id="mustPass" type="password" placeholder="Password" />
 
 
-<button type="button" onclick="myFunction()">CLAIM YOUR FREE TRIAL</button>
+          <button type="submit" >CLAIM YOUR FREE TRIAL</button>
 
       </form>
       <div class="Terms">
